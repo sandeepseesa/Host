@@ -37,6 +37,10 @@ app.get('/test', async(req, res) => {
     res.status(200).send("Hello world")
 })
 
+app.get('/home', async(req, res) => {
+    res.status(200).send("Welcome to home page")
+})
+
 app.post('/student', async (req, res) => {
     console.log("Req body", req.body)
     try{
