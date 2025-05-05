@@ -37,7 +37,7 @@ app.get('/test', async(req, res) => {
     res.status(200).send("Hello world")
 })
 
-app.get('/home', async(req, res) => {
+app.get('/', async(req, res) => {
     res.status(200).send("Welcome to home page")
 })
 
